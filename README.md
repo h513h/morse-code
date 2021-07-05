@@ -1,2 +1,2 @@
-Users are able to type text message to translator to Morese code, also able to check Morse code and type them to translaotr to message as well.
+Users are able to type text messages which are translated to Morse code. Users can also translate from Morse code into text.
 There is a button to play the Morse code.
