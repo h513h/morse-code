@@ -1,0 +1,21 @@
+.panels
+  .panel
+    h3 摩斯密碼翻譯器
+    h1 Morse Code Translation
+    textarea#input(rows="4", placeholder="Input the Message") MORSECODE
+    .symbol ⇵
+    textarea#output(rows="4", placeholder="Input the Code")
+    .playlist
+    .buttons
+      button#btnMorse.btn-primary Translate to Code
+      button#btnEng.btn-secondary Translate to Message
+      button#btnPlay.btn Play
+    audio.short(src="http://2017.awiclass.monoame.com/audio/morse/short.mp3")
+    audio.long(src="http://2017.awiclass.monoame.com/audio/morse/long.mp3")
+  .panel.panel-secondary
+    h3 Code List
+    hr
+    ul.translist
+
+.decoration MORSE<br>CODE
+

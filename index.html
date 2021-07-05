@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Morse Code</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="panels">
+  <div class="panel">
+    <h3>摩斯密碼翻譯器</h3>
+    <h1>Morse Code Translation</h1>
+    <textarea id="input" rows="4" placeholder="Input the Message">MORSECODE</textarea>
+    <div class="symbol">⇵</div>
+    <textarea id="output" rows="4" placeholder="Input the Code"></textarea>
+    <div class="playlist"></div>
+    <div class="buttons">
+      <button class="btn-primary" id="btnMorse">Translate to Code</button>
+      <button class="btn-secondary" id="btnEng">Translate to Message</button>
+      <button class="btn" id="btnPlay">Play</button>
+    </div>
+    <audio class="short" src="http://2017.awiclass.monoame.com/audio/morse/short.mp3"></audio>
+    <audio class="long" src="http://2017.awiclass.monoame.com/audio/morse/long.mp3"></audio>
+  </div>
+  <div class="panel panel-secondary">
+    <h3>Code List</h3>
+    <hr/>
+    <ul class="translist"></ul>
+  </div>
+</div>
+<div class="decoration">MORSE<br>CODE</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-color/2.1.2/jquery.color.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/velocity/1.5.0/velocity.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
